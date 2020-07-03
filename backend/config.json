@@ -1,0 +1,47 @@
+{"connection":
+    {
+        "host": "remotemysql.com",
+        "user": "5Mz7BOPEie",
+        "password": "OtfO1FEPpj",
+        "database": "5Mz7BOPEie",
+        "multipleStatements": true
+
+},
+"db_con":{
+    "host": "107.180.78.61",
+    "user": "mobileapp",
+    "password": "Mob@App@321",
+    "database": "trail",
+    "multipleStatements": true
+
+},
+"testing":
+    {
+        "host": "localhost",
+        "user": "sidharth",
+        "password": "carpediem_3594",
+        "database": "transporter",
+        "port":8889
+},
+"mail":{
+    "host": "smtpout.asia.secureserver.net",
+    "port": 465,
+    "secure": true,
+    "auth": {
+        "user":"noreply@fifofuture.in",
+        "pass":"vReply@123" 
+    }
+    
+},
+"sms":{
+    "user":"FIFOFUTURE",
+    "pass":"18105",
+    "smsid":"Smsint"
+},
+
+"contact":{
+"header":"Completed transaction for past 30 days"    ,
+"footer":"For additional information \n contact FIFO support:..."},
+"key":"MobApp@321"
+
+}
