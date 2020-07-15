@@ -43,7 +43,7 @@ export default class UA_Item extends React.Component {
                 
             //this.navigation.navigate('Unassigned',{emr_Id:this.emr_Id,emr_IP_Address:this.emr_IP_Address})
             this.navigation.pop();
-            this.navigation.navigate('Unassigned',{emr_Id:this.emr_Id,emr_IP_Address:this.emr_IP_Address})
+            //this.navigation.navigate('Unassigned',{emr_Id:this.emr_Id,emr_IP_Address:this.emr_IP_Address})
 
             
     }
