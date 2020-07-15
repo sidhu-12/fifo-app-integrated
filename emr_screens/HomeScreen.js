@@ -38,7 +38,7 @@ const HomeDrawer=(props)=>{
     emr_Id=props.route.params.id;            //EMR ID OF USER
     emr_name=props.route.params.name;       //EMR NAME OF USER 
     emr_username=props.route.params.username;   // EMR USERNAME OF USER  
-    emr_IP_Address = 'https://fifo-app-server.herokuapp.com'    //IP Address for loading the data
+    emr_IP_Address = 'https://fifo-app-integrated.herokuapp.com'    //IP Address for loading the data
     
     props.navigation.setOptions({
         headerLeft:()=>(

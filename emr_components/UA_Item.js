@@ -14,6 +14,7 @@ export default class UA_Item extends React.Component {
         this.data = props.data ;
         this.emr_Id = props.emr_Id;
         this.emr_IP_Address = props.emr_IP_Address;
+        this.emr_username=props.emr_username;
         this.containerkey = props.index ;
     }
 
@@ -40,7 +41,9 @@ export default class UA_Item extends React.Component {
                 Alert.alert('Container added')
             })
                 
-            this.navigation.navigate('Assigned',{emr_Id:this.emr_Id,emr_IP_Address:this.emr_IP_Address})
+            //this.navigation.navigate('Unassigned',{emr_Id:this.emr_Id,emr_IP_Address:this.emr_IP_Address})
+            this.navigation.pop();
+            this.navigation.navigate('Unassigned',{emr_Id:this.emr_Id,emr_IP_Address:this.emr_IP_Address})
 
             
     }

@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "FIFO_Transporter",
-    "slug": "fifoapp_final1",
-    "description": "An app for the Transporter for containers",
+    "name": "FIFO-APP",
+    "slug": "fifo_integrated",
+    "description": "",
     "privacy": "unlisted",
     "platforms": [
       "ios",

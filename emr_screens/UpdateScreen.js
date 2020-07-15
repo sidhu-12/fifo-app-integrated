@@ -110,10 +110,15 @@ export default class UpdateScreen extends React.Component {
                        
             fetch(this.state.emr_IP_Address + '/update_container_details',details)
             .then(() => Alert.alert('Details Updated'))
-        this.props.navigation.navigate("HistoryScreen",
-                                {emr_Id:this.state.emr_Id,
-                                 emr_IP_Address:this.state.emr_IP_Address
-                                })
+        //this.props.navigation.navigate("HistoryScreen",
+                               // {emr_Id:this.state.emr_Id,
+                                 //emr_IP_Address:this.state.emr_IP_Address
+                                //})
+            this.props.navigation.pop();
+            this.props.navigation.pop();
+//            this.props.navigation.navigate(" ",)
+
+
         }
         
     }

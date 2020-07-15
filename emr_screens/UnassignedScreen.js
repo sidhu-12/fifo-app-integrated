@@ -102,6 +102,7 @@ export default class UnassignedScreen extends React.Component {
                             data={item}
                             emr_Id={this.state.emr_Id} 
                             emr_IP_Address={this.props.route.params.emr_IP_Address}
+                            emr_username={this.props.route.params.emr_username}
                             navigation={this.props.navigation}
                         /> 
                     }        
