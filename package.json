@@ -37,7 +37,7 @@
     "react-native-modal-datetime-picker": "^8.5.3",
     "react-native-modals": "^0.19.9",
     "react-native-phone-call": "^1.0.9",
-    "react-native-reanimated": "~1.4.0",
+    "react-native-reanimated": "~2.10.0",
     "react-native-router-flux": "^4.2.0",
     "react-native-safe-area-context": "0.6.0",
     "react-native-screens": "2.0.0-alpha.12",
